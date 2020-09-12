@@ -57,6 +57,10 @@ section {
     color:white;
     text-align: center;
 }
+footer{
+  text-align:center;
+  text-decoration: none;
+}
 .topnav.responsive a {
     float: none;
     display: block;
@@ -69,10 +73,6 @@ section {
     position: absolute;
     right: 0;
     top: 0;
-  }
-  hr {
-    margin-bottom: 3rem;
-    margin-top: 3rem;
   }
   h2{
       color:#FFAC41;
