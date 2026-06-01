@@ -1,41 +1,145 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="css/style.css">
-<script src="js/script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[Your Name] | QA & Test Engineering Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body >
+<body class="bg-gray-50 text-gray-800 font-sans antialiased">
 
-<nav class="topnav" id="myTopnav">
-  <a href="index.html" class="active">Home</a>
-  <a href="skills.html">Skills</a>
-  <a href="certificate.html">Certificates</a>
-  <a href="#" class="icon" onclick="myFunction()">
-    <div></div><div></div><div></div>
-  </a>
-</nav>
-<main>
-<section style="padding-left:16px">
-  <img src="images/banner.png" width="100%" alt="banner">
-  <h2>About Me</h2>
-    <p>BCA Student</p>
-    <p>My name is <strong>Manoodh</strong> and i am currently doing my Bachelor of Computer Application from College of Applied Science, Kozhikode</p>
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-5xl mx-auto px-4 py-4 flex justify-between items-center">
+            <h1 class="text-xl font-bold text-indigo-600">[Your Name]</h1>
+            <nav class="space-x-6">
+                <a href="#about" class="hover:text-indigo-600 transition">About</a>
+                <a href="#skills" class="hover:text-indigo-600 transition">Skills</a>
+                <a href="#projects" class="hover:text-indigo-600 transition">Projects</a>
+                <a href="#contact" class="hover:text-indigo-600 transition">Contact</a>
+            </nav>
+        </div>
+    </header>
 
-    <p><a href="resume.html">My Resume</a><br>
-      <a href="https://github.com/manoodh" class="fa fa-github"></a>
-      <a href="https://twitter.com/manoodhp" class="fa fa-twitter"></a>
-      <a href="https://linkedin.com/in/manoodh-p" class="fa fa-linkedin"></a>
-    <h2>Contact</h2>
+    <section class="bg-gradient-to-r from-indigo-600 to-blue-700 text-white py-20 px-4 text-center">
+        <div class="max-w-3xl mx-auto">
+            <h2 class="text-4xl md:text-5xl font-extrabold mb-4">Hi, I'm [Your Name]</h2>
+            <p class="text-xl md:text-2xl text-indigo-100 mb-8">Quality Assurance & Software Test Engineer</p>
+            <p class="text-lg text-indigo-200 max-w-xl mx-auto mb-8">
+                [A brief 1-2 sentence hook about your passion for breaking code, finding edge cases, and ensuring seamless user experiences.]
+            </p>
+            <div class="space-x-4">
+                <a href="#projects" class="bg-white text-indigo-600 px-6 py-3 rounded-lg font-semibold shadow hover:bg-indigo-50 transition">View My Work</a>
+                <a href="#contact" class="border border-white text-white px-6 py-3 rounded-lg font-semibold hover:bg-white/10 transition">Get In Touch</a>
+            </div>
+        </div>
+    </section>
 
-    <p><a href="mailto:manoodhprakash@gmail.com.com">manoodhprakash@gmail.com</a></p>
-  </body>
-</section>
-  <footer>
-    Copyright &copy 2020
-  </footer>
+    <section id="about" class="py-16 max-w-5xl mx-auto px-4">
+        <h3 class="text-3xl font-bold border-b-2 border-indigo-500 pb-2 mb-6">About Me</h3>
+        <p class="text-gray-600 leading-relaxed text-lg">
+            [Write a short bio here. Mention your journey into QA, your philosophy on testing—whether you focus on preventing bugs early in the lifecycle, writing robust automation scripts, or meticulously tracking down tricky edge cases.]
+        </p>
+    </section>
 
-</main>
+    <section id="skills" class="py-16 bg-white">
+        <div class="max-w-5xl mx-auto px-4">
+            <h3 class="text-3xl font-bold border-b-2 border-indigo-500 pb-2 mb-8">Technical Toolkit</h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="p-6 bg-gray-50 rounded-xl shadow-sm border border-gray-100">
+                    <h4 class="font-bold text-lg text-indigo-600 mb-3">Testing Methodologies</h4>
+                    <ul class="space-y-2 text-gray-600">
+                        <li>• Functional & Regression Testing</li>
+                        <li>• API Testing (REST)</li>
+                        <li>• UI / UX Testing</li>
+                        <li>• [Add Method/Approach, e.g., Agile/Scrum]</li>
+                    </ul>
+                </div>
+                <div class="p-6 bg-gray-50 rounded-xl shadow-sm border border-gray-100">
+                    <h4 class="font-bold text-lg text-indigo-600 mb-3">Automation & Tools</h4>
+                    <ul class="space-y-2 text-gray-600">
+                        <li>• [Tool 1, e.g., Selenium / Playwright]</li>
+                        <li>• [Tool 2, e.g., Postman / RestAssured]</li>
+                        <li>• Git & GitHub</li>
+                        <li>• Jira / TestRail</li>
+                    </ul>
+                </div>
+                <div class="p-6 bg-gray-50 rounded-xl shadow-sm border border-gray-100">
+                    <h4 class="font-bold text-lg text-indigo-600 mb-3">Languages & Frameworks</h4>
+                    <ul class="space-y-2 text-gray-600">
+                        <li>• [Language 1, e.g., Java / Python / JavaScript]</li>
+                        <li>• [Framework, e.g., TestNG / PyTest]</li>
+                        <li>• HTML5 / CSS3 (Basics)</li>
+                        <li>• SQL (Basic Queries)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="py-16 max-w-5xl mx-auto px-4">
+        <h3 class="text-3xl font-bold border-b-2 border-indigo-500 pb-2 mb-8">Featured QA Projects</h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            
+            <div class="bg-white border border-gray-200 rounded-xl overflow-hidden shadow-sm flex flex-col justify-between">
+                <div class="p-6">
+                    <span class="text-xs font-semibold uppercase tracking-wider text-indigo-600 bg-indigo-50 px-2 py-1 rounded">Automation</span>
+                    <h4 class="font-bold text-xl mt-2 mb-3">[Project Title, e.g., E-Commerce UI Automation Framework]</h4>
+                    <p class="text-gray-600 mb-4">
+                        [Provide a 2-3 sentence overview of what you tested, the design pattern used like POM, and how it improves test efficiency.]
+                    </p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="text-xs bg-gray-100 text-gray-700 px-2 py-1 rounded">[e.g., Playwright]</span>
+                        <span class="text-xs bg-gray-100 text-gray-700 px-2 py-1 rounded">[e.g., JavaScript]</span>
+                        <span class="text-xs bg-gray-100 text-gray-700 px-2 py-1 rounded">CI/CD</span>
+                    </div>
+                </div>
+                <div class="p-6 bg-gray-50 border-t border-gray-100">
+                    <a href="[Your GitHub Repository Link]" target="_blank" class="text-indigo-600 font-semibold hover:text-indigo-800 transition inline-flex items-center">
+                        View Repository &rarr;
+                    </a>
+                </div>
+            </div>
+
+            <div class="bg-white border border-gray-200 rounded-xl overflow-hidden shadow-sm flex flex-col justify-between">
+                <div class="p-6">
+                    <span class="text-xs font-semibold uppercase tracking-wider text-emerald-600 bg-emerald-50 px-2 py-1 rounded">Manual / API Testing</span>
+                    <h4 class="font-bold text-xl mt-2 mb-3">[Project Title, e.g., REST API Test Suite & Bug Reports]</h4>
+                    <p class="text-gray-600 mb-4">
+                        [Describe your approach to testing endpoints, validating status codes, verifying payloads, and detailing the edge cases you discovered.]
+                    </p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="text-xs bg-gray-100 text-gray-700 px-2 py-1 rounded">[e.g., Postman]</span>
+                        <span class="text-xs bg-gray-100 text-gray-700 px-2 py-1 rounded">Bug Documentation</span>
+                        <span class="text-xs bg-gray-100 text-gray-700 px-2 py-1 rounded">JSON Validation</span>
+                    </div>
+                </div>
+                <div class="p-6 bg-gray-50 border-t border-gray-100">
+                    <a href="[Your Link to Test Cases/Bug Reports]" target="_blank" class="text-indigo-600 font-semibold hover:text-indigo-800 transition inline-flex items-center">
+                        View Documentation &rarr;
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact" class="py-16 bg-gray-900 text-white text-center">
+        <div class="max-w-2xl mx-auto px-4">
+            <h3 class="text-3xl font-bold mb-4">Let's Connect</h3>
+            <p class="text-gray-400 mb-8">I am actively looking for QA opportunities. Feel free to reach out via email or connect with me professionally!</p>
+            <div class="flex flex-col sm:flex-row justify-center items-center gap-4 sm:gap-8">
+                <a href="mailto:[your.email@example.com]" class="text-lg hover:text-indigo-400 transition font-medium">[your.email@example.com]</a>
+                <span class="hidden sm:inline text-gray-600">|</span>
+                <a href="[Your LinkedIn URL]" target="_blank" class="text-lg hover:text-indigo-400 transition font-medium">LinkedIn</a>
+                <span class="hidden sm:inline text-gray-600">|</span>
+                <a href="[Your GitHub URL]" target="_blank" class="text-lg hover:text-indigo-400 transition font-medium">GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-950 py-6 text-center text-sm text-gray-500">
+        <p>&copy; 2026 [Your Name]. All rights reserved.</p>
+    </footer>
+
 </body>
 </html>
